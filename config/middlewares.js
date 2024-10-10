@@ -14,7 +14,13 @@ module.exports = [
       },
     },
   },
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+        config: {
+          enabled: true,
+          origin: ['https://vieta-vieta.lt'],
+        },
+  },
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
