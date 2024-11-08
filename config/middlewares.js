@@ -18,7 +18,7 @@ module.exports = [
     name: 'strapi::cors',
         config: {
           enabled: true,
-          origin: ['https://vieta-vieta.lt'],
+          origin: ['https://vieta-vieta.lt', 'https://strapi-production-ce0d.up.railway.app'],
         },
   },
   'strapi::poweredBy',
